@@ -19,11 +19,11 @@ else
                 yum install -y  python git psmisc
         else
                 echo "shit ϵͳ������  ��github������issue "
-		echo "https://github.com/huanghuixin1/shadowsocksr.git"
+		echo "https://github.com/zLulus/ssr_install.git"
         fi
 fi
 
-git clone https://github.com/huanghuixin1/shadowsocksr.git
+git clone https://github.com/zLulus/ssr_install.git
 python /usr/local/ssr_hhx/shadowsocksr/shadowsocks/server.py -p 8899 -k 52hhx.com -m none -O auth_chain_a &
 
 chmod +x /etc/rc.local
